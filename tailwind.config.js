@@ -7,12 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      boxShadow: {
+        'blue-500-blur': '0 10px 15px -10px rgba(59, 130, 246, 0.05), 0 4px 6px -2px rgba(59, 130, 246, 0.05)',
+      }
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 }
