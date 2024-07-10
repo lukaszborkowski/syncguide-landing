@@ -5,9 +5,7 @@ import { SecondaryButton } from "./SecondaryButton";
 export const Navbar = () => {
   return (
     <div className="navbar fixed justify-between top-0 bg-base-100 z-50 border-b border-stone-300 border-solid border-1 shadow-md ">
-      <div className=" hidden sm:block">
-        <SecondaryButton>Join Whitelist</SecondaryButton>
-      </div>
+      <div className="w-[200px] hidden sm:block"/>
 
       <div className="">
         <a className="btn btn-ghost normal-case text-xl max-w-[300px]" href="/">
@@ -20,8 +18,11 @@ export const Navbar = () => {
         </a>
       </div>
 
+      <div className=" ">
+        <SecondaryButton>Join Whitelist</SecondaryButton>
+      </div>
 
-      <div className="">
+      {/* <div className="">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
             <svg
@@ -46,11 +47,9 @@ export const Navbar = () => {
             <li>
               <a href="/">Homepage</a>
             </li>
-            {/* <li><a href='/'>Portfolio</a></li> */}
-            {/* <li><a href='/'>About</a></li> */}
           </ul>
         </div>
-      </div>
+      </div> */}
 
     </div>
   );

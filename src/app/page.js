@@ -1,5 +1,6 @@
 import Features from '@/components/Features'
 import Hero from '@/components/Hero'
+import { InfoBanner } from '@/components/InfoBanner'
 import OverflowBox from '@/components/Overflow'
 import Pricing from '@/components/Pricing'
 import SectionHeader from '@/components/SectionHeader'
@@ -13,6 +14,7 @@ export default function Home() {
       {/* <Features /> */}
       {/* <SectionHeader title="Pricing"/> */}
       {/* <Pricing /> */}
+      <InfoBanner/>
     </main>
   )
 }
