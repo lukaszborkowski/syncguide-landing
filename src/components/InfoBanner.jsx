@@ -11,7 +11,7 @@ export const InfoBanner = () => {
           easy for everyone. */}
         </h2>
         <p className="mt-8 text-center font-display text-[20px] leading-8 text-white opacity-80">
-          We understand the challenges of keeping your knowledge base up to date.
+        Join our whitelist to stay updated on our progress!
         </p>
         <div className="mt-10 flex flex-1 gap-4">
           <SecondaryButton>Join Whitelist</SecondaryButton>
