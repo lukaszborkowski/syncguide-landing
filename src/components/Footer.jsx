@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
         <Image src="/logoMono.svg" alt="Logo footer" width={200} height={100} />
         <p>© 2024 made with 💙 in Poland</p>
-        <a href="mailto:contact@syncguide.io" className=" text-center link link-hover">
-          contact@syncguide.io
+        <a href="mailto:contact@syncguide.app" className=" text-center link link-hover">
+          contact@syncguide.app
         </a>
         </div>
       
