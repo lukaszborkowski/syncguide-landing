@@ -16,7 +16,7 @@ const Hero = () => {
         ></a>
 
         <h1 className="mx-auto px-2 font-display text-3xl font-medium tracking-tight text-gray-700 sm:text-5xl md:max-w-7xl lg:max-w-7xl lg:text-6xl xl:text-7xl">
-          Keep Your
+          Keep Your Software
           <div className="mx-auto flex items-center justify-center space-x-1 self-center overflow-hidden sm:space-x-4 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
