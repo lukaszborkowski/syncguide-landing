@@ -58,7 +58,7 @@ const Hero = () => {
         </p>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           {/* <PrimaryButton>Try Free For 7 days</PrimaryButton> */}
-          <SecondaryButton>Join Whitelist</SecondaryButton>
+          <SecondaryButton>Join Waitlist</SecondaryButton>
         </div>
 
         <div className="relative shadow-slate-800 mx-auto overflow-hidden rounded-xl text-center md:max-w-screen-md lg:max-w-7xl shadow-2xl border-solid">

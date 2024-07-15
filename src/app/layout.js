@@ -2,6 +2,9 @@ import { Navbar } from '@/components/Navbar'
 import './globals.css'
 import { Poppins } from 'next/font/google'
 import Footer from '@/components/Footer'
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import Head from 'next/head';
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] })
 
@@ -12,8 +15,19 @@ export const metadata = {
 
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"
+        />
+
+      </Head>
       <body className={poppins.className}>
 
         <div
@@ -44,6 +58,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
+
     </html>
   )
 }

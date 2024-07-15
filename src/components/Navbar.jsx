@@ -19,7 +19,7 @@ export const Navbar = () => {
       </div>
 
       <div className=" ">
-        <SecondaryButton>Join Whitelist</SecondaryButton>
+        <SecondaryButton>Join Waitlist</SecondaryButton>
       </div>
 
       {/* <div className="">
